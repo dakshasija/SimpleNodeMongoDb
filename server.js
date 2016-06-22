@@ -5,7 +5,7 @@ var MongoClient = require('mongodb').MongoClient;
 
 app.listen(portNumber);
 
-app.get('/', function (req, res) {
+app.get('*', function (req, res) {
    res.sendFile( __dirname + "/index.html" );
 })
 

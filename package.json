@@ -1,17 +1,27 @@
 {
   "name": "dakshasija",
   "version": "1.0.0",
-  "description": "",
+  "description": "NodeJs+MongoDB integartion where values entered by the user will be stored in database and showed on client side.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Daksh asija",
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.4",
     "mongodb": "^2.1.21",
     "morgan": "^1.7.0",
     "nodemon": "^1.9.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dakshasija/SimpleNodeMongoDb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dakshasija/SimpleNodeMongoDb/issues"
+  },
+  "homepage": "https://github.com/dakshasija/SimpleNodeMongoDb#readme"
 }
